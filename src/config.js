@@ -32,15 +32,15 @@ const sortSearchByDistance = false;
 //
 // In a way, 'processAlias' defines which transaction process (or processes)
 // this particular web application is able to handle.
-const bookingProcessAlias = 'preauth-nightly-booking/release-1';
+const bookingProcessAlias = 'Task booking/release-1';
 
 // The transaction line item code for the main unit type in bookings.
 //
-// Possible values: ['line-item/night', 'line-item/day', 'line-item/units';]
+// Possible values: ['line-item/Task', 'line-item/units';]
 //
 // Note: translations will use different translation keys for night, day or unit
 // depending on the value chosen.
-const bookingUnitType = 'line-item/night';
+const bookingUnitType = 'line-item/Task';
 
 // Should the application fetch available time slots (currently defined as
 // start and end dates) to be shown on listing page.
