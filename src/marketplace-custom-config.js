@@ -4,8 +4,8 @@
 
 export const amenities = [
   {
-    key: 'towels',
-    label: 'Towels',
+    key: 'Handtücher',
+    label: 'Handtücher',
   },
   {
     key: 'bathroom',
